@@ -1,9 +1,5 @@
 import { isArray } from "util";
 
-function isUpperCase(str) {
-    return str === str.toUpperCase();
-}
-
 export function greet(name){
     if(name === null){
         return("Hello, my friend");
